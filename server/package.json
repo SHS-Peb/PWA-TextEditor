@@ -1,0 +1,23 @@
+{
+    "name": "JATE",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "server": "nodemon server.js --ignore client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.3",
+        "nodemon": "^2.0.4",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-pwa-manifest": "^4.3.0",
+        "workbox-webpack-plugin": "^7.0.0"
+    }
+}
